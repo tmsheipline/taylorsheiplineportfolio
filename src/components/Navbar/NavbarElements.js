@@ -30,7 +30,10 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #339db7;
+  /* color: #339db7; */
+  color: white;
+  color: #41ca8e;
+  /* color: #f55281; */
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -73,14 +76,15 @@ export const NavItem = styled.li`
 
 export const NavLinks = styled(LinkS)`
     color: #fff;
+    color: #41ca8e;
     display: flex;
     align-items: center;
-    text-decortation: none;
+    text-decoration: none;
     padding: 0 1rem;
-    height: 100%
+    height: 100%;
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #01bf71
+        border-bottom: 3px solid #f55281;
     }
 `;
