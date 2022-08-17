@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: blue;
+  color: #339db7;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;

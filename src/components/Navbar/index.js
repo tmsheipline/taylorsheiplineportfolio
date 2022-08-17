@@ -10,15 +10,16 @@ import {
   NavLinks,
 } from "./NavbarElements";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
+  
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Taylor Sheipline</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
-          </MobileIcon>
+          </MobileIcon >
           <NavMenu>
             <NavItem>
               <NavLinks to="about">About</NavLinks>
