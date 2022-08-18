@@ -1,81 +1,12 @@
 import React from "react";
 import { Button } from "react-scroll";
-import {
-  InfoContainer,
-  InfoWrapper,
-  Column1,
-  TextWrapper,
-  Heading,
-  Subtitle,
-  BtnWrap,
-  Column2,
-  Img,
-  ImgWrap,
-  InfoRow,
-  TopLine,
-} from "./infoElements";
 import "./InfoSection.css";
 
-// function InfoSection({lightBg,id, imgStart,topLine,lightText,headline,darkText,description,img, alt}) {
-//   return (
-//     <>
-//         <InfoContainer lightBg={lightBg} id={id}>
-//         <InfoWrapper>
-//             <InfoRow imgStart={imgStart}>
-//                 <Column1>
-//                 <TextWrapper>
-//                     <TopLine>{topLine}</TopLine>
-//                     <Heading lightText={lightText}>{headline}</Heading>
-//                     <Subtitle darkText={darkText}>{description}</Subtitle>
-//                     <BtnWrap>
-//                         {/* <Button to="home">Button</Button> */}
-//                     </BtnWrap>
-//                 </TextWrapper>
-//                 </Column1>
-//                 <Column2>
-//                 <ImgWrap>
-//                     <Img src={img} alt={alt} />
-//                 </ImgWrap>
-//                 </Column2>
-//             </InfoRow>
-//         </InfoWrapper>
-//         </InfoContainer>
-//     </>
-//   )
-// }
-
-// function InfoSection({ img1, img2, img3, img4, img5, alt }) {
-//   return (
-//     <>
-{
-  /* <ImgWrap>
-            <Img src={img1} alt={alt}/>
-            <Img src={img2} alt={alt}/>
-            <Img src={img3} alt={alt}/>
-            <Img src={img4} alt={alt}/>
-            <Img src={img5} alt={alt}/>
-         </ImgWrap> */
-}
-{
-  /* <div className="bigContainer">
-        <div className="container1">
-          <img src={img2} alt="diabuddy" />
-          <img src={img1} alt="dancebox" />
-          <img src={img3} alt="stir" />
-          <img src={img4} alt="instacat" />
-          <img src={img5} alt="hungrytoby" />
-        </div>
-        <div className="container2">
-        </div>
-      </div>
-    </>
-  );
-} */
-}
 
 function InfoSection({ img1, img2, img3, img4, img5, alt }) {
   return (
     <>
+      <div className="projectContainer">
       <h1>Projects</h1>
       <div class="cards">
         <div class="card">
@@ -88,7 +19,9 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
             items to calculate a carb total.
             <br /> <br />
             Launched application in 1 week and presented remotely to 30+
-            colleagues.{" "}
+            colleagues.
+            <br /> <br />
+          <button>Visit Site</button>
           </p>
         </div>
         <div class="card">
@@ -103,6 +36,8 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
             <br /> <br />
             Implemented APIs/themes/plugins to customize product and information
             for the client.
+            <br /> <br />
+          <button>Visit Site</button>
           </p>
         </div>
         <div class="card">
@@ -115,6 +50,8 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
             Implemented multiple APIs to create customizable cocktail libraries
             for each individual use and Implemented User Authorization /
             Authentication.
+            <br /> <br />
+          <button>Visit Site</button>
           </p>
         </div>
         <div class="card">
@@ -130,6 +67,8 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
             <br /> <br />
             Launched application in 1 week and presented remotely to 30+
             colleagues.
+            <br /> <br />
+          <button>Visit Site</button>
           </p>
         </div>
         <div class="card">
@@ -140,8 +79,11 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
             with Canvas. 
             <br /> <br />
              Launched Application in 5 days and presented to 30+ colleagues remotely.
+             <br /> <br />
+          <button>Visit Site</button>
           </p>
         </div>
+      </div>
       </div>
     </>
   );

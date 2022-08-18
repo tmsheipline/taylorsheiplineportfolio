@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroIcons } from './HeroElements'
-import { FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
 import './Hero.css'
 
 const HeroSection = () => {
@@ -19,7 +18,7 @@ const HeroSection = () => {
             <HeroIcons>
               <a href="https://github.com/tmsheipline" className='socialico' target='_blank'><FaGithub /></a>
               <a href="https://www.linkedin.com/in/taylorsheipline/" className='socialico' target='_blank'><FaLinkedin/></a>
-              <a href="https://www.facebook.com/taylor.sheipline" className='socialico' target='_blank'><FaFacebook/></a>
+              <a href="mailto:taylorsheipline_2012@hotmail.com" className='socialico' target='_blank'><FaEnvelope/></a>
             </HeroIcons>
         </HeroContent>
     </HeroContainer>
