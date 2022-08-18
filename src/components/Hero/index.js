@@ -7,13 +7,7 @@ import { FaFacebook } from 'react-icons/fa';
 import './Hero.css'
 
 const HeroSection = () => {
-    //for a button if need be
-    // const [hover, setHover] = useState(false)
-
-    // const onHover = () => {
-    //     setHover(!setHover)
-    // }
-
+  
   return (
     <HeroContainer>
         <HeroBg>
@@ -27,7 +21,6 @@ const HeroSection = () => {
               <a href="https://www.linkedin.com/in/taylorsheipline/" className='socialico' target='_blank'><FaLinkedin/></a>
               <a href="https://www.facebook.com/taylor.sheipline" className='socialico' target='_blank'><FaFacebook/></a>
             </HeroIcons>
-            
         </HeroContent>
     </HeroContainer>
   )
