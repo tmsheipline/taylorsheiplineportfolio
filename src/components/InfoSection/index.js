@@ -1,18 +1,29 @@
 import React from "react";
 import { Button } from "react-scroll";
 import "./InfoSection.css";
+import {Document, Page, pdfjs} from 'react-pdf';
+import {useState} from 'react'
 
 
-function InfoSection({ img1, img2, img3, img4, img5, alt }) {
+function InfoSection({ img1, img2, img3, img4, img5}) {
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+const [numPages, setNumPages] = useState(null);
+const [pageNumber, setPageNumber] = useState(1);
+
+function onDocumentLoadSuccess({numPages}){
+  setNumPages(numPages);
+  setPageNumber(1)
+}
+
   return (
     <>
       <div className="projectContainer">
       <h1>Projects</h1>
-      <div class="cards">
-        <div class="card">
-          <h2 class="card-title">Diabuddy</h2>
+      <div className="cards">
+        <div className="card">
+          <h2 className="card-title">Diabuddy</h2>
           <img src={img2} alt="diabuddy" />
-          <p class="card-desc">
+          <p className="card-desc">
             Diabetes friendly Carb counter built with the MERN stack.
             <br /> <br />
             Implemented Nutritionix API to create a meal from a list of food
@@ -24,10 +35,10 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
           <button>Visit Site</button>
           </p>
         </div>
-        <div class="card">
-          <h2 class="card-title">DanceBox</h2>
+        <div className="card">
+          <h2 className="card-title">DanceBox</h2>
           <img src={img1} alt="dancebox" />
-          <p class="card-desc">
+          <p className="card-desc">
             Wordpress managed Ecommerce site built for a local dancewear
             business.
             <br /> <br />
@@ -40,10 +51,10 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
           <button>Visit Site</button>
           </p>
         </div>
-        <div class="card">
-          <h2 class="card-title">Stir</h2>
+        <div className="card">
+          <h2 className="card-title">Stir</h2>
           <img src={img3} alt="stir" />
-          <p class="card-desc">
+          <p className="card-desc">
             Responsive full CRUD Application built with Node, Express, Liquid,
             MongoDb, Mongoose, CSS (Bootstrap), Javascript.
             <br /> <br />
@@ -54,10 +65,10 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
           <button>Visit Site</button>
           </p>
         </div>
-        <div class="card">
-          <h2 class="card-title">Instacat</h2>
+        <div className="card">
+          <h2 className="card-title">Instacat</h2>
           <img src={img4} alt="stir" />
-          <p class="card-desc">
+          <p className="card-desc">
             Instagram like clone for Cat-Lovers built with the MERN stack.
             <br /> <br />
             Collaborated with 3 other developers via Git/Github featuring daily
@@ -71,10 +82,10 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
           <button>Visit Site</button>
           </p>
         </div>
-        <div class="card">
-          <h2 class="card-title">Hungry Hungry Toby</h2>
+        <div className="card">
+          <h2 className="card-title">Hungry Hungry Toby</h2>
           <img src={img5} alt="hungry hungry toby" />
-          <p class="card-desc">
+          <p className="card-desc">
             Falling objects game featuring my own cat as the main character built with HTML, CSS, and vanilla Javascript
             with Canvas. 
             <br /> <br />
@@ -84,6 +95,13 @@ function InfoSection({ img1, img2, img3, img4, img5, alt }) {
           </p>
         </div>
       </div>
+      </div>
+      <div>
+      <Document file={'https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing'}
+      onLoadSucess={onDocumentLoadSuccess}
+      >
+        <Page pageNumber={pageNumber} />
+      </Document>
       </div>
     </>
   );

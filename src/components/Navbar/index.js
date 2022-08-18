@@ -29,6 +29,7 @@ const Navbar = ({toggle}) => {
             </NavItem>
             <NavItem>
               <NavLinks to="resume">Resume</NavLinks>
+              {/* <a href="https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing" target="_blank">Resume</a> */}
             </NavItem>
             <NavItem>
               <NavLinks to="contact">Contact</NavLinks>
