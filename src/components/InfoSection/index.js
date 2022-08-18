@@ -3,17 +3,17 @@ import { Button } from 'react-scroll'
 import { InfoContainer, InfoWrapper, Column1, TextWrapper, Heading, Subtitle, BtnWrap, Column2, Img, ImgWrap, InfoRow, TopLine } from './infoElements'
 
 
-function InfoSection() {
+function InfoSection({lightBg,id, imgStart,topLine,lightText,headline,darkText,description,img, alt}) {
   return (
     <>
-        <InfoContainer >
+        <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-            <InfoRow>
+            <InfoRow imgStart={imgStart}>
                 <Column1>
                 <TextWrapper>
-                    <TopLine>TopLine</TopLine>
-                    <Heading>Heading</Heading>
-                    <Subtitle>Subtitle</Subtitle>
+                    <TopLine>{topLine}</TopLine>
+                    <Heading lightText={lightText}>{headline}</Heading>
+                    <Subtitle darkText={darkText}>{description}</Subtitle>
                     <BtnWrap>
                         {/* <Button to="home">Button</Button> */}
                     </BtnWrap>
@@ -21,7 +21,7 @@ function InfoSection() {
                 </Column1>
                 <Column2>
                 <ImgWrap>
-                    <Img />
+                    <Img src={img} alt={alt} />
                 </ImgWrap>
                 </Column2>
             </InfoRow>

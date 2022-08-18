@@ -1,0 +1,26 @@
+span:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate {
+    0%{
+        content: 'Software Engineer';
+    }
+    25%{
+        content: 'Animal Lover';
+    }
+    50%{
+        content: 'Foodie';
+    }
+    75%{
+        content: 'Bourbon Enthusiast';
+    }
+    100%{
+        content: 'Software Engineer';
+    }
+}
+
+.socialico{
+   font-size: 24px;
+   color: black;
+}

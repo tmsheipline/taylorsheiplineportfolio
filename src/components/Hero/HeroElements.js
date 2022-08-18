@@ -77,3 +77,10 @@ export const HeroP = styled.p`
     }
 `
 
+export const HeroIcons = styled.div`
+    display: flex;
+    margin-top: 2em;
+    gap: 1.5em;
+
+`;
+
