@@ -1,19 +1,11 @@
 import React from "react";
 import { Button } from "react-scroll";
 import "./InfoSection.css";
-import {Document, Page, pdfjs} from 'react-pdf';
-import {useState} from 'react'
+// import {Document, Page} from 'react-pdf';
+// import pdfFile from '../../../src/resume.pdf'
 
 
 function InfoSection({ img1, img2, img3, img4, img5}) {
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-const [numPages, setNumPages] = useState(null);
-const [pageNumber, setPageNumber] = useState(1);
-
-function onDocumentLoadSuccess({numPages}){
-  setNumPages(numPages);
-  setPageNumber(1)
-}
 
   return (
     <>
@@ -96,13 +88,11 @@ function onDocumentLoadSuccess({numPages}){
         </div>
       </div>
       </div>
-      <div>
-      <Document file={'https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing'}
-      onLoadSucess={onDocumentLoadSuccess}
-      >
-        <Page pageNumber={pageNumber} />
+      {/* <div>
+      <Document file={pdfFile}>
+        <Page pageNumber={1} />
       </Document>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -28,7 +28,7 @@ const Navbar = ({toggle}) => {
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="resume">Resume</NavLinks>
+              <NavLinks to="https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing" target='_blank'>Resume</NavLinks>
               {/* <a href="https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing" target="_blank">Resume</a> */}
             </NavItem>
             <NavItem>

@@ -7,15 +7,10 @@ export const homeObjOne = {
     img5: require('../../images/hungrytoby.png'),
 }
 
-// export const homeObjTwo = {
-//     id: 'projects',
-//     topLine: 'About Me',
-//     headline: 'test',
-//     description: '',
-//     imgStart: false,
-//     img: require('../../images/diabuddy.png'),
-//     alt: 'test',
-// }
+export const homeObjTwo = {
+    id: 'resume',
+    img6: require('../../images/resumeimg.png'),
+}
 
 // export const homeObjThree = {
 //     id: 'resume',
