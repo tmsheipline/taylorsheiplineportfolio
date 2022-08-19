@@ -4,8 +4,9 @@ import Navbar from "../components/Navbar";
 import { useState } from "react";
 import HeroSection from "../components/Hero";
 import InfoSection from "../components/InfoSection";
-import Resume from '../components/Resume/index.js'
-import { homeObjOne, homeObjTwo} from "../components/InfoSection/Data";
+import Skills from '../components/Skills';
+import Resume from '../components/Resume';
+import { homeObjOne, homeObjThree, homeObjTwo} from "../components/InfoSection/Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <Resume {...homeObjTwo} />
+      {/* <Skills {...homeObjThree} /> */}
       {/* <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />

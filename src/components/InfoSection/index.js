@@ -1,8 +1,6 @@
 import React from "react";
 import { Button } from "react-scroll";
 import "./InfoSection.css";
-// import {Document, Page} from 'react-pdf';
-// import pdfFile from '../../../src/resume.pdf'
 
 
 function InfoSection({ img1, img2, img3, img4, img5}) {
