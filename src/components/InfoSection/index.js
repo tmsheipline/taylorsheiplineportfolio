@@ -24,7 +24,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             Launched application in 1 week and presented remotely to 30+
             colleagues.
             <br /> <br />
-          <button>Visit Site</button>
+          <button onClick={()=> {window.open('https://diabuddy-ts.herokuapp.com/')}}>Visit Site</button>
           </p>
         </div>
         <div className="card">
@@ -40,7 +40,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             Implemented APIs/themes/plugins to customize product and information
             for the client.
             <br /> <br />
-          <button>Visit Site</button>
+          <button onClick={()=> {window.open('https://shopdancebox.com/')}}>Visit Site</button>
           </p>
         </div>
         <div className="card">
@@ -54,7 +54,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             for each individual use and Implemented User Authorization /
             Authentication.
             <br /> <br />
-          <button>Visit Site</button>
+          <button onClick={()=> {window.open('https://thirstystir.herokuapp.com/')}}>Visit Site</button>
           </p>
         </div>
         <div className="card">
@@ -71,7 +71,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             Launched application in 1 week and presented remotely to 30+
             colleagues.
             <br /> <br />
-          <button>Visit Site</button>
+          <button onClick={()=> {window.open('https://instacats-jat.herokuapp.com/')}}>Visit Site</button>
           </p>
         </div>
         <div className="card">
@@ -83,7 +83,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             <br /> <br />
              Launched Application in 5 days and presented to 30+ colleagues remotely.
              <br /> <br />
-          <button>Visit Site</button>
+          <button onClick={()=> {window.open('https://tmsheipline.github.io/Hungry-Hungry-Toby/')}}>Visit Site</button>
           </p>
         </div>
       </div>
