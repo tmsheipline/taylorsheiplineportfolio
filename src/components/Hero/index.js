@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
         <HeroBg>
-            <VideoBg autoPlay={true} loop={true} playsInline={true} controls={false} muted={true} src={Video} type='video/mp4' />
+            <VideoBg autoPlay={true} loop={true} playsInline={true} controls={false} muted={true} data-wf-ignore={true} src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
             <HeroH1>Hi, 👋 <br/> I'm Taylor Sheipline</HeroH1>
