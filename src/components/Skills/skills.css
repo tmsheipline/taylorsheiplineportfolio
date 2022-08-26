@@ -1,0 +1,98 @@
+.skillsicons{
+    font-size: 70px;
+    /* color: #f0db4e; */
+}
+
+.skillcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skillscontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+}
+
+.techheading{
+    text-align: center;
+    margin: 1em;
+}
+
+.skillsiconsjs{
+    font-size: 70px;
+    color: #f0db4e;
+}
+
+.skillsiconsreact{
+    font-size: 70px;
+    color: #5edbff;
+}
+
+.skillsiconsnode{
+    font-size: 70px;
+    color:#4baf4f;
+}
+.skillsiconsgithub{
+    font-size: 70px;
+}
+.skillsiconsgit{
+    font-size: 70px;
+    color: #f05133;
+}
+.skillsiconspython{
+    font-size: 70px;
+    color: #3b75a6;
+}
+.skillsiconsdjango{
+    font-size: 70px;
+    color: #35ab78;
+}
+.skillsiconsmongo{
+    font-size: 70px;
+    color: #4f9646;
+}
+.skillsiconspost{
+    font-size: 70px;
+    color: #316092;
+}
+.skillsiconsheroku{
+    font-size: 70px;
+    color:#440296;
+}
+.skillsiconshtml{
+    font-size: 70px;
+    color: #e64d25;
+}
+.skillsiconscss{
+    font-size: 70px;
+    color:#2570ba;
+}
+.skillsiconsnpm{
+    font-size: 70px;
+    color:#e32d38;
+}
+.skillsiconsvscode{
+    font-size: 70px;
+    color:#3c99d4;
+}
+.skillsiconsbootstrap{
+    font-size: 70px;
+    color:#7742c4;
+}
+.skillsiconsslack{
+    font-size: 70px;
+    color:#5ca2aa;
+}
+.skillsiconsfigma{
+    font-size: 70px;
+    color: #f67262;
+}
+
+
+
