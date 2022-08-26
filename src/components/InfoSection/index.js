@@ -7,7 +7,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
 
   return (
     <>
-      <div className="projectContainer">
+      <div className="projectContainer" id="projects">
       <h1>Projects</h1>
       <div className="cards">
         <div className="card">
@@ -86,11 +86,6 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
         </div>
       </div>
       </div>
-      {/* <div>
-      <Document file={pdfFile}>
-        <Page pageNumber={1} />
-      </Document>
-      </div> */}
     </>
   );
 }

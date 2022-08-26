@@ -5,7 +5,7 @@ import './resume.css'
 const resume = ({img6}) => {
   return (
     <>
-    <div className='resumeContainer'>
+    <div className='resumeContainer' id='resume'>
     <h1>Resume</h1>
     <div className='container'>
     <img src={img6} className="resume" alt="resume" />

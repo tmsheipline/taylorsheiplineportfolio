@@ -25,7 +25,7 @@ import "./skills.css";
 function skills() {
   return (
     <>
-      <h1 className="techheading">Tech Stack</h1>
+      <h1 className="techheading" id="tech">Tech Stack</h1>
       <div className="skillscontainer">
         <div className="skillcard">
           <DiJsBadge className="skillsiconsjs" ></DiJsBadge>

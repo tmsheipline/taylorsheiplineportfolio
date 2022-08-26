@@ -6,7 +6,7 @@ import HeroSection from "../components/Hero";
 import InfoSection from "../components/InfoSection";
 import Skills from '../components/Skills';
 import Resume from '../components/Resume';
-import { homeObjOne, homeObjThree, homeObjTwo} from "../components/InfoSection/Data";
+import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo} from "../components/InfoSection/Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <Skills {...homeObjThree} />
+      <Skills {...homeObjFour}/>
       <InfoSection {...homeObjOne} />
       <Resume {...homeObjTwo} />
     </>

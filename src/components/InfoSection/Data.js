@@ -16,3 +16,7 @@ export const homeObjThree = {
     id: 'about',
     img6: require('../../images/resumeimg.png'),
 }
+
+export const homeObjFour = {
+    id: 'tech',
+}
