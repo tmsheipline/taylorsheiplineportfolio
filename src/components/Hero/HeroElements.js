@@ -29,7 +29,7 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     /* -o-object-fit: scale-down; */
     object-fit: cover;
-    background: #232a34;
+    /* background: #232a34; */
 `
 
 export const HeroContent = styled.div`
