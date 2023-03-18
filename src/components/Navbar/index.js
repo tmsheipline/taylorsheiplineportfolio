@@ -25,7 +25,7 @@ const Navbar = ({toggle}) => {
 
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const toggleHome = () => {
     scroll.scrollToTop()

@@ -10,7 +10,7 @@ const resume = ({img6}) => {
     <div className='container'>
     <img src={img6} className="resume" alt="resume" />
       <div className='content'>
-        <h3>Checkout <a href='https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing' className='googleLink' target='_blank' alt='resumelink'>Google Doc</a> for full functionality of Resume</h3>
+        <h3>Checkout <a href='https://docs.google.com/document/d/1RCAkNLn8doeX1C8EaBukhcUNYRnV7gifjr8I7P11gMA/edit?usp=sharing' className='googleLink' target='_blank' rel="noreferrer"alt='resumelink'>Google Doc</a> for full functionality of Resume</h3>
       </div>
       </div>
     </div>

@@ -16,9 +16,9 @@ const HeroSection = () => {
             <HeroP><span></span></HeroP>
             <br></br>
             <HeroIcons>
-              <a href="https://github.com/tmsheipline" className='socialico' target='_blank'><FaGithub /></a>
-              <a href="https://www.linkedin.com/in/taylorsheipline/" className='socialico' target='_blank'><FaLinkedin/></a>
-              <a href="mailto:taylorsheipline_2012@hotmail.com" className='socialico' target='_blank'><FaEnvelope/></a>
+              <a href="https://github.com/tmsheipline" className='socialico' target='_blank' rel="noreferrer"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/taylorsheipline/" className='socialico' target='_blank' rel="noreferrer"><FaLinkedin/></a>
+              <a href="mailto:taylorsheipline_2012@hotmail.com" className='socialico' target='_blank' rel="noreferrer"><FaEnvelope/></a>
             </HeroIcons>
         </HeroContent>
     </HeroContainer>
