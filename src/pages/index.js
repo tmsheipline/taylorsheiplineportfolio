@@ -6,7 +6,7 @@ import HeroSection from "../components/Hero";
 import InfoSection from "../components/InfoSection";
 import Skills from '../components/Skills';
 import Resume from '../components/Resume';
-import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo} from "../components/InfoSection/Data";
+import { homeObjFour, homeObjOne, homeObjTwo} from "../components/InfoSection/Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
