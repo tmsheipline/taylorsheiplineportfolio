@@ -1,14 +1,11 @@
 import React from "react";
 import {
   FaSlack,
-  FaPython,
-  FaFigma
+  FaFigma,
+  FaAngular,
 } from "react-icons/fa";
 import {
-  DiDjango,
   DiGithubBadge,
-  DiMongodb,
-  DiPostgresql,
   DiHeroku,
   DiHtml5,
   DiNpm,
@@ -19,7 +16,11 @@ import {
   DiVisualstudio,
   DiBootstrap,
   DiCss3,
+  
 } from "react-icons/di";
+import {
+  SiAzuredevops,
+} from 'react-icons/si';
 import "./skills.css";
 
 function skills() {
@@ -30,6 +31,10 @@ function skills() {
         <div className="skillcard">
           <DiJsBadge className="skillsiconsjs" ></DiJsBadge>
           <p>Javascript</p>
+        </div>
+        <div className="skillcard">
+          <FaAngular className="skillsiconsreact"></FaAngular>
+          <p>Angular</p>
         </div>
         <div className="skillcard">
           <DiReact className="skillsiconsreact"></DiReact>
@@ -48,20 +53,8 @@ function skills() {
           <p>Git</p>
         </div>
         <div className="skillcard">
-          <FaPython className="skillsiconspython"></FaPython>
-          <p>Python</p>
-        </div>
-        <div className="skillcard">
-          <DiDjango className="skillsiconsdjango"></DiDjango>
-          <p>Django</p>
-        </div>
-        <div className="skillcard">
-          <DiMongodb className="skillsiconsmongo"></DiMongodb>
-          <p>MongoDb</p>
-        </div>
-        <div className="skillcard">
-          <DiPostgresql className="skillsiconspost"></DiPostgresql>
-          <p>PostgreSQL</p>
+          <SiAzuredevops className="skillsiconsmongo"></SiAzuredevops>
+          <p>Azure Devops</p>
         </div>
         <div className="skillcard">
           <DiHeroku className="skillsiconsheroku"></DiHeroku>
