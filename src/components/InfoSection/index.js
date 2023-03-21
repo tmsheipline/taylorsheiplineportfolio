@@ -54,7 +54,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
           <button onClick={()=> {window.open('https://thirstystir.herokuapp.com/')}}>Visit Site</button>
           </p>
         </div>
-        <div className="card">
+        {/* <div className="card">
           <h2 className="card-title">Instacat</h2>
           <img src={img4} alt="stir" />
           <p className="card-desc">
@@ -70,7 +70,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             <br /> <br />
           <button onClick={()=> {window.open('https://instacats-jat.herokuapp.com/')}}>Visit Site</button>
           </p>
-        </div>
+        </div> */}
         <div className="card">
           <h2 className="card-title">Hungry Hungry Toby</h2>
           <img src={img5} alt="hungry hungry toby" />
