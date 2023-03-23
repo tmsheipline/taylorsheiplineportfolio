@@ -21,7 +21,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             Launched application in 1 week and presented remotely to 30+
             colleagues.
             <br /> <br />
-          <button onClick={()=> {window.open('https://diabuddy-ts.herokuapp.com/')}}>Visit Site</button>
+          <button onClick={()=> {window.open('https://diabuddy.netlify.app')}}>Visit Site</button>
           </p>
         </div>
         <div className="card">
