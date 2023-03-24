@@ -41,6 +41,19 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
           </p>
         </div>
         <div className="card">
+          <h2 className="card-title">Hungry Hungry Toby</h2>
+          <img src={img5} alt="hungry hungry toby" />
+          <p className="card-desc">
+            Falling objects game featuring my own cat as the main character built with HTML, CSS, and vanilla Javascript
+            with Canvas. 
+            <br /> <br />
+             Launched Application in 5 days and presented to 30+ colleagues remotely.
+             <br /> <br />
+          <button onClick={()=> {window.open('https://tmsheipline.github.io/Hungry-Hungry-Toby/')}}>Visit Site</button>
+          </p>
+        </div>
+
+        <div className="card">
           <h2 className="card-title">Stir</h2>
           <img src={img3} alt="stir" />
           <p className="card-desc">
@@ -51,7 +64,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
             for each individual use and Implemented User Authorization /
             Authentication.
             <br /> <br />
-          <button onClick={()=> {window.open('https://thirstystir.herokuapp.com/')}}>Visit Site</button>
+          {/* <button onClick={()=> {window.open('https://thirstystir.herokuapp.com/')}}>Visit Site</button> */}
           </p>
         </div>
         {/* <div className="card">
@@ -71,18 +84,7 @@ function InfoSection({ img1, img2, img3, img4, img5}) {
           <button onClick={()=> {window.open('https://instacats-jat.herokuapp.com/')}}>Visit Site</button>
           </p>
         </div> */}
-        <div className="card">
-          <h2 className="card-title">Hungry Hungry Toby</h2>
-          <img src={img5} alt="hungry hungry toby" />
-          <p className="card-desc">
-            Falling objects game featuring my own cat as the main character built with HTML, CSS, and vanilla Javascript
-            with Canvas. 
-            <br /> <br />
-             Launched Application in 5 days and presented to 30+ colleagues remotely.
-             <br /> <br />
-          <button onClick={()=> {window.open('https://tmsheipline.github.io/Hungry-Hungry-Toby/')}}>Visit Site</button>
-          </p>
-        </div>
+        
       </div>
       </div>
     </>

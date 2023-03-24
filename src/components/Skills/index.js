@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa";
 import {
   DiGithubBadge,
-  DiHeroku,
+  DiMaterializecss,
   DiHtml5,
   DiNpm,
   DiJsBadge,
@@ -14,12 +14,12 @@ import {
   DiNodejs,
   DiGit,
   DiVisualstudio,
-  DiBootstrap,
   DiCss3,
   
 } from "react-icons/di";
 import {
   SiAzuredevops,
+  SiNetlify
 } from 'react-icons/si';
 import "./skills.css";
 
@@ -57,8 +57,8 @@ function skills() {
           <p>Azure Devops</p>
         </div>
         <div className="skillcard">
-          <DiHeroku className="skillsiconsheroku"></DiHeroku>
-          <p>Heroku</p>
+          <SiNetlify className="skillsiconsheroku"></SiNetlify>
+          <p>Netlify</p>
         </div>
         <div className="skillcard">
           <DiHtml5 className="skillsiconshtml"></DiHtml5>
@@ -81,8 +81,8 @@ function skills() {
           <p>VS Code</p>
         </div>
         <div className="skillcard">
-          <DiBootstrap className="skillsiconsbootstrap"></DiBootstrap>
-          <p>Bootstrap</p>
+          <DiMaterializecss className="skillsiconsbootstrap"></DiMaterializecss>
+          <p>Material</p>
           </div>
         <div className="skillcard">
           <FaFigma className="skillsiconsfigma"></FaFigma>
