@@ -19,7 +19,8 @@ import {
 } from "react-icons/di";
 import {
   SiAzuredevops,
-  SiNetlify
+  SiNetlify,
+  SiTypescript,
 } from 'react-icons/si';
 import "./skills.css";
 
@@ -33,7 +34,11 @@ function skills() {
           <p>Javascript</p>
         </div>
         <div className="skillcard">
-          <FaAngular className="skillsiconsreact"></FaAngular>
+          <SiTypescript className="skillsiconstypescript" ></SiTypescript>
+          <p>Typescript</p>
+        </div>
+        <div className="skillcard">
+          <FaAngular className="skillsiconsangular"></FaAngular>
           <p>Angular</p>
         </div>
         <div className="skillcard">
@@ -53,11 +58,11 @@ function skills() {
           <p>Git</p>
         </div>
         <div className="skillcard">
-          <SiAzuredevops className="skillsiconsmongo"></SiAzuredevops>
+          <SiAzuredevops className="skillsiconsazure"></SiAzuredevops>
           <p>Azure Devops</p>
         </div>
         <div className="skillcard">
-          <SiNetlify className="skillsiconsheroku"></SiNetlify>
+          <SiNetlify className="skillsiconsnetlify"></SiNetlify>
           <p>Netlify</p>
         </div>
         <div className="skillcard">
@@ -81,7 +86,7 @@ function skills() {
           <p>VS Code</p>
         </div>
         <div className="skillcard">
-          <DiMaterializecss className="skillsiconsbootstrap"></DiMaterializecss>
+          <DiMaterializecss className="skillsiconsmaterial"></DiMaterializecss>
           <p>Material</p>
           </div>
         <div className="skillcard">
