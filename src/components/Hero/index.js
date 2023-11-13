@@ -12,7 +12,7 @@ const HeroSection = () => {
             <VideoBg autoPlay={true} loop={true} playsInline={true} controls={false} muted={true} data-wf-ignore={true} src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-            <HeroH1>Hi, 👋 <br/> I'm Taylor Sheipline</HeroH1>
+            <HeroH1>Hi, 👋 <br/> I'm Taylor Southline</HeroH1>
             <HeroP><span></span></HeroP>
             <br></br>
             <HeroIcons>

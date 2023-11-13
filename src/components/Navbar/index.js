@@ -35,7 +35,7 @@ const Navbar = ({toggle}) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>Taylor Sheipline</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>Taylor Southline</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon >
