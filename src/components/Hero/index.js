@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroIcons } from './HeroElements'
-import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneSquare } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './Hero.css'
 
 const HeroSection = () => {
@@ -16,9 +16,9 @@ const HeroSection = () => {
             <HeroP><span></span></HeroP>
             <br></br>
             <HeroIcons>
-              <a href="https://github.com/tmsheipline" className='socialico' target='_blank'><FaGithub /></a>
-              <a href="https://www.linkedin.com/in/taylorsheipline/" className='socialico' target='_blank'><FaLinkedin/></a>
-              <a href="mailto:taylorsheipline_2012@hotmail.com" className='socialico' target='_blank'><FaEnvelope/></a>
+              <a href="https://github.com/tmsheipline" className='socialico' target='_blank' rel="noreferrer"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/taylorsheipline/" className='socialico' target='_blank' rel="noreferrer"><FaLinkedin/></a>
+              <a href="mailto:taylorsheipline_2012@hotmail.com" className='socialico' target='_blank' rel="noreferrer"><FaEnvelope/></a>
             </HeroIcons>
         </HeroContent>
     </HeroContainer>

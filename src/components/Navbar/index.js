@@ -13,7 +13,7 @@ import {
 
 const Navbar = ({toggle}) => {
 
-  const [scrollNav, setScrollNav] = useState(false)
+  const [setScrollNav] = useState(false)
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -25,7 +25,7 @@ const Navbar = ({toggle}) => {
 
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const toggleHome = () => {
     scroll.scrollToTop()
