@@ -9,7 +9,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'resume',
-    img6: require('../../images/TaylorSheiplineResume2023.png'),
+    img6: require('../../images/TaylorSouthlineResume.png'),
 }
 
 export const homeObjThree = {
